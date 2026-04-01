@@ -79,6 +79,6 @@ html {
 
 
 .pill-purple {
-  @apply rounded-full border-none text-white font-bold h-10 px-8;
+  rounded-full border-none text-white font-bold h-10 px-8;
   background: linear-gradient(89.15deg, #4F39F6 -30.76%, #9514FA 99.27%);
 }

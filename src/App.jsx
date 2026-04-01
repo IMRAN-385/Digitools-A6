@@ -77,7 +77,7 @@ const App = () => {
         
         <Stats />
 
-        <section id="main-content" className="py-24 max-w-7xl mx-auto min-h-[700px] px-4 md:px-8">
+        <section id="main-content" className="py-24 max-w-7xl mx-auto  px-4min-h-[700px] md:px-8">
           <div className="text-center mb-16 px-4">
             <h2 className="text-4xl md:text-7xl font-black mb-8 tracking-tighter text-[#101727]">Premium Digital Tools</h2>
             <p className="text-base md:text-xl text-base-content/40 max-w-3xl mx-auto mb-16 font-bold leading-relaxed opacity-80">
