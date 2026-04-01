@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  font-family: "Manrope", sans-serif;
+  --primary-color: #7C3AED;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.bg-gradient-primary {
+  background: linear-gradient(89.15deg, #4F39F6 -30.76%, #9514FA 99.27%);
+}
+
+
+.text-gradient-primary {
+  background: linear-gradient(89.15deg, #4F39F6 -30.76%, #9514FA 99.27%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+}
+
+
+.indicator-item {
+  @apply border-white;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+
+@keyframes pulse-dot {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+}
+
+.animate-pulse-dot {
+  animation: pulse-dot 2s infinite ease-in-out;
+}
+
+
+.stats-divider {
+  width: 1px;
+  height: 64px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.pill-purple {
+  @apply rounded-full border-none text-white font-bold h-10 px-8;
+  background: linear-gradient(89.15deg, #4F39F6 -30.76%, #9514FA 99.27%);
+}
