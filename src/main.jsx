@@ -5,7 +5,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div data-theme="light">
+    <div theme="light">
        <App />
     </div>
   </StrictMode>,
