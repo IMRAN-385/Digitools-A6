@@ -42,8 +42,6 @@ It helps creators, professionals, and businesses to supercharge their digital wo
 
 ## 📸 Screenshot
 
-![DigiTools Full Preview]
-
 <img width="1920" height="8436" alt="screencapture-digitools-work-netlify-app-2026-04-09-06_54_32" src="https://github.com/user-attachments/assets/75afb5b7-767e-4e13-9ae5-bfe99d9f424a" />
 
 ---
@@ -59,5 +57,4 @@ It helps creators, professionals, and businesses to supercharge their digital wo
 1. Clone the repository
    ```bash
    git clone https://github.com/yourusername/digitools.git
-   cd digitools
    
